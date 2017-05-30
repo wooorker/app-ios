@@ -14,6 +14,8 @@
 		180DBF031EDD28CC00AB7201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180DBF011EDD28CC00AB7201 /* LaunchScreen.storyboard */; };
 		180DBF0E1EDD28CC00AB7201 /* SmartWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBF0D1EDD28CC00AB7201 /* SmartWorkTests.swift */; };
 		180DBF191EDD28CC00AB7201 /* SmartWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBF181EDD28CC00AB7201 /* SmartWorkUITests.swift */; };
+		1849CEAB1EDD529D009B1043 /* SWPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849CEAA1EDD529D009B1043 /* SWPublic.swift */; };
+		DF9469B085FB49BF1194BC76 /* Pods_SmartWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		180DBF141EDD28CC00AB7201 /* SmartWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180DBF181EDD28CC00AB7201 /* SmartWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWorkUITests.swift; sourceTree = "<group>"; };
 		180DBF1A1EDD28CC00AB7201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1849CEAA1EDD529D009B1043 /* SWPublic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPublic.swift; sourceTree = "<group>"; };
+		35B14B1DAA736DA0993D4D05 /* Pods-SmartWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartWork/Pods-SmartWork.release.xcconfig"; sourceTree = "<group>"; };
+		5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7252361AF208942E3918D4 /* Pods-SmartWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartWork/Pods-SmartWork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9469B085FB49BF1194BC76 /* Pods_SmartWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,8 @@
 				180DBF0C1EDD28CC00AB7201 /* SmartWorkTests */,
 				180DBF171EDD28CC00AB7201 /* SmartWorkUITests */,
 				180DBEF61EDD28CC00AB7201 /* Products */,
+				54EDAD01DB8B30C63115F977 /* Pods */,
+				2F23759E9417E4FBB4C13F0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +106,8 @@
 		180DBEF71EDD28CC00AB7201 /* SmartWork */ = {
 			isa = PBXGroup;
 			children = (
+				1849CEA91EDD5282009B1043 /* SmartWorkSDK */,
+				180DBF261EDD2B0D00AB7201 /* lib3rd */,
 				180DBEF81EDD28CC00AB7201 /* AppDelegate.swift */,
 				180DBEFA1EDD28CC00AB7201 /* ViewController.swift */,
 				180DBEFC1EDD28CC00AB7201 /* Main.storyboard */,
@@ -125,6 +136,39 @@
 			path = SmartWorkUITests;
 			sourceTree = "<group>";
 		};
+		180DBF261EDD2B0D00AB7201 /* lib3rd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib3rd;
+			sourceTree = "<group>";
+		};
+		1849CEA91EDD5282009B1043 /* SmartWorkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1849CEAA1EDD529D009B1043 /* SWPublic.swift */,
+			);
+			name = SmartWorkSDK;
+			path = Public;
+			sourceTree = "<group>";
+		};
+		2F23759E9417E4FBB4C13F0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54EDAD01DB8B30C63115F977 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD7252361AF208942E3918D4 /* Pods-SmartWork.debug.xcconfig */,
+				35B14B1DAA736DA0993D4D05 /* Pods-SmartWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180DBF1D1EDD28CC00AB7201 /* Build configuration list for PBXNativeTarget "SmartWork" */;
 			buildPhases = (
+				78CF987F9E3A01458D616D6B /* [CP] Check Pods Manifest.lock */,
 				180DBEF11EDD28CC00AB7201 /* Sources */,
 				180DBEF21EDD28CC00AB7201 /* Frameworks */,
 				180DBEF31EDD28CC00AB7201 /* Resources */,
+				40D17FC316D3C21CDCA2FFDA /* [CP] Embed Pods Frameworks */,
+				A5F1A0D462DE3F9176EB7711 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,11 +301,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40D17FC316D3C21CDCA2FFDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartWork/Pods-SmartWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78CF987F9E3A01458D616D6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F1A0D462DE3F9176EB7711 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartWork/Pods-SmartWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		180DBEF11EDD28CC00AB7201 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1849CEAB1EDD529D009B1043 /* SWPublic.swift in Sources */,
 				180DBEFB1EDD28CC00AB7201 /* ViewController.swift in Sources */,
 				180DBEF91EDD28CC00AB7201 /* AppDelegate.swift in Sources */,
 			);
@@ -410,9 +506,11 @@
 		};
 		180DBF1E1EDD28CC00AB7201 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7252361AF208942E3918D4 /* Pods-SmartWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmartWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +520,11 @@
 		};
 		180DBF1F1EDD28CC00AB7201 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B14B1DAA736DA0993D4D05 /* Pods-SmartWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmartWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +605,7 @@
 				180DBF1F1EDD28CC00AB7201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180DBF201EDD28CC00AB7201 /* Build configuration list for PBXNativeTarget "SmartWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +614,7 @@
 				180DBF221EDD28CC00AB7201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180DBF231EDD28CC00AB7201 /* Build configuration list for PBXNativeTarget "SmartWorkUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +623,7 @@
 				180DBF251EDD28CC00AB7201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
