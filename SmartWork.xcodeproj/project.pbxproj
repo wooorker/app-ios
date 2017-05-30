@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180DBEF91EDD28CC00AB7201 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBEF81EDD28CC00AB7201 /* AppDelegate.swift */; };
+		180DBEFB1EDD28CC00AB7201 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBEFA1EDD28CC00AB7201 /* ViewController.swift */; };
+		180DBEFE1EDD28CC00AB7201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180DBEFC1EDD28CC00AB7201 /* Main.storyboard */; };
+		180DBF001EDD28CC00AB7201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180DBEFF1EDD28CC00AB7201 /* Assets.xcassets */; };
+		180DBF031EDD28CC00AB7201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180DBF011EDD28CC00AB7201 /* LaunchScreen.storyboard */; };
+		180DBF0E1EDD28CC00AB7201 /* SmartWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBF0D1EDD28CC00AB7201 /* SmartWorkTests.swift */; };
+		180DBF191EDD28CC00AB7201 /* SmartWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBF181EDD28CC00AB7201 /* SmartWorkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180DBF0A1EDD28CC00AB7201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180DBEED1EDD28CC00AB7201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180DBEF41EDD28CC00AB7201;
+			remoteInfo = SmartWork;
+		};
+		180DBF151EDD28CC00AB7201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180DBEED1EDD28CC00AB7201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180DBEF41EDD28CC00AB7201;
+			remoteInfo = SmartWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180DBEF51EDD28CC00AB7201 /* SmartWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180DBEF81EDD28CC00AB7201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180DBEFA1EDD28CC00AB7201 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		180DBEFD1EDD28CC00AB7201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180DBEFF1EDD28CC00AB7201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180DBF021EDD28CC00AB7201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180DBF041EDD28CC00AB7201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180DBF091EDD28CC00AB7201 /* SmartWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180DBF0D1EDD28CC00AB7201 /* SmartWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWorkTests.swift; sourceTree = "<group>"; };
+		180DBF0F1EDD28CC00AB7201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180DBF141EDD28CC00AB7201 /* SmartWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180DBF181EDD28CC00AB7201 /* SmartWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWorkUITests.swift; sourceTree = "<group>"; };
+		180DBF1A1EDD28CC00AB7201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180DBEF21EDD28CC00AB7201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180DBF061EDD28CC00AB7201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180DBF111EDD28CC00AB7201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180DBEEC1EDD28CC00AB7201 = {
+			isa = PBXGroup;
+			children = (
+				180DBEF71EDD28CC00AB7201 /* SmartWork */,
+				180DBF0C1EDD28CC00AB7201 /* SmartWorkTests */,
+				180DBF171EDD28CC00AB7201 /* SmartWorkUITests */,
+				180DBEF61EDD28CC00AB7201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180DBEF61EDD28CC00AB7201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180DBEF51EDD28CC00AB7201 /* SmartWork.app */,
+				180DBF091EDD28CC00AB7201 /* SmartWorkTests.xctest */,
+				180DBF141EDD28CC00AB7201 /* SmartWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180DBEF71EDD28CC00AB7201 /* SmartWork */ = {
+			isa = PBXGroup;
+			children = (
+				180DBEF81EDD28CC00AB7201 /* AppDelegate.swift */,
+				180DBEFA1EDD28CC00AB7201 /* ViewController.swift */,
+				180DBEFC1EDD28CC00AB7201 /* Main.storyboard */,
+				180DBEFF1EDD28CC00AB7201 /* Assets.xcassets */,
+				180DBF011EDD28CC00AB7201 /* LaunchScreen.storyboard */,
+				180DBF041EDD28CC00AB7201 /* Info.plist */,
+			);
+			path = SmartWork;
+			sourceTree = "<group>";
+		};
+		180DBF0C1EDD28CC00AB7201 /* SmartWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				180DBF0D1EDD28CC00AB7201 /* SmartWorkTests.swift */,
+				180DBF0F1EDD28CC00AB7201 /* Info.plist */,
+			);
+			path = SmartWorkTests;
+			sourceTree = "<group>";
+		};
+		180DBF171EDD28CC00AB7201 /* SmartWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180DBF181EDD28CC00AB7201 /* SmartWorkUITests.swift */,
+				180DBF1A1EDD28CC00AB7201 /* Info.plist */,
+			);
+			path = SmartWorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180DBEF41EDD28CC00AB7201 /* SmartWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180DBF1D1EDD28CC00AB7201 /* Build configuration list for PBXNativeTarget "SmartWork" */;
+			buildPhases = (
+				180DBEF11EDD28CC00AB7201 /* Sources */,
+				180DBEF21EDD28CC00AB7201 /* Frameworks */,
+				180DBEF31EDD28CC00AB7201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartWork;
+			productName = SmartWork;
+			productReference = 180DBEF51EDD28CC00AB7201 /* SmartWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180DBF081EDD28CC00AB7201 /* SmartWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180DBF201EDD28CC00AB7201 /* Build configuration list for PBXNativeTarget "SmartWorkTests" */;
+			buildPhases = (
+				180DBF051EDD28CC00AB7201 /* Sources */,
+				180DBF061EDD28CC00AB7201 /* Frameworks */,
+				180DBF071EDD28CC00AB7201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180DBF0B1EDD28CC00AB7201 /* PBXTargetDependency */,
+			);
+			name = SmartWorkTests;
+			productName = SmartWorkTests;
+			productReference = 180DBF091EDD28CC00AB7201 /* SmartWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180DBF131EDD28CC00AB7201 /* SmartWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180DBF231EDD28CC00AB7201 /* Build configuration list for PBXNativeTarget "SmartWorkUITests" */;
+			buildPhases = (
+				180DBF101EDD28CC00AB7201 /* Sources */,
+				180DBF111EDD28CC00AB7201 /* Frameworks */,
+				180DBF121EDD28CC00AB7201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180DBF161EDD28CC00AB7201 /* PBXTargetDependency */,
+			);
+			name = SmartWorkUITests;
+			productName = SmartWorkUITests;
+			productReference = 180DBF141EDD28CC00AB7201 /* SmartWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180DBEED1EDD28CC00AB7201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NicoDeng;
+				TargetAttributes = {
+					180DBEF41EDD28CC00AB7201 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					180DBF081EDD28CC00AB7201 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 180DBEF41EDD28CC00AB7201;
+					};
+					180DBF131EDD28CC00AB7201 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 180DBEF41EDD28CC00AB7201;
+					};
+				};
+			};
+			buildConfigurationList = 180DBEF01EDD28CC00AB7201 /* Build configuration list for PBXProject "SmartWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180DBEEC1EDD28CC00AB7201;
+			productRefGroup = 180DBEF61EDD28CC00AB7201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180DBEF41EDD28CC00AB7201 /* SmartWork */,
+				180DBF081EDD28CC00AB7201 /* SmartWorkTests */,
+				180DBF131EDD28CC00AB7201 /* SmartWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180DBEF31EDD28CC00AB7201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180DBF031EDD28CC00AB7201 /* LaunchScreen.storyboard in Resources */,
+				180DBF001EDD28CC00AB7201 /* Assets.xcassets in Resources */,
+				180DBEFE1EDD28CC00AB7201 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180DBF071EDD28CC00AB7201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180DBF121EDD28CC00AB7201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180DBEF11EDD28CC00AB7201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180DBEFB1EDD28CC00AB7201 /* ViewController.swift in Sources */,
+				180DBEF91EDD28CC00AB7201 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180DBF051EDD28CC00AB7201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180DBF0E1EDD28CC00AB7201 /* SmartWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180DBF101EDD28CC00AB7201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180DBF191EDD28CC00AB7201 /* SmartWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180DBF0B1EDD28CC00AB7201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180DBEF41EDD28CC00AB7201 /* SmartWork */;
+			targetProxy = 180DBF0A1EDD28CC00AB7201 /* PBXContainerItemProxy */;
+		};
+		180DBF161EDD28CC00AB7201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180DBEF41EDD28CC00AB7201 /* SmartWork */;
+			targetProxy = 180DBF151EDD28CC00AB7201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180DBEFC1EDD28CC00AB7201 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180DBEFD1EDD28CC00AB7201 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180DBF011EDD28CC00AB7201 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180DBF021EDD28CC00AB7201 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180DBF1B1EDD28CC00AB7201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180DBF1C1EDD28CC00AB7201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180DBF1E1EDD28CC00AB7201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		180DBF1F1EDD28CC00AB7201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		180DBF211EDD28CC00AB7201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartWork.app/SmartWork";
+			};
+			name = Debug;
+		};
+		180DBF221EDD28CC00AB7201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartWork.app/SmartWork";
+			};
+			name = Release;
+		};
+		180DBF241EDD28CC00AB7201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SmartWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartWork;
+			};
+			name = Debug;
+		};
+		180DBF251EDD28CC00AB7201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SmartWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180DBEF01EDD28CC00AB7201 /* Build configuration list for PBXProject "SmartWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180DBF1B1EDD28CC00AB7201 /* Debug */,
+				180DBF1C1EDD28CC00AB7201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180DBF1D1EDD28CC00AB7201 /* Build configuration list for PBXNativeTarget "SmartWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180DBF1E1EDD28CC00AB7201 /* Debug */,
+				180DBF1F1EDD28CC00AB7201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180DBF201EDD28CC00AB7201 /* Build configuration list for PBXNativeTarget "SmartWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180DBF211EDD28CC00AB7201 /* Debug */,
+				180DBF221EDD28CC00AB7201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180DBF231EDD28CC00AB7201 /* Build configuration list for PBXNativeTarget "SmartWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180DBF241EDD28CC00AB7201 /* Debug */,
+				180DBF251EDD28CC00AB7201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180DBEED1EDD28CC00AB7201 /* Project object */;
+}
