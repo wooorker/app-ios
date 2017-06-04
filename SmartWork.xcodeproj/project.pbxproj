@@ -108,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				1849CEA91EDD5282009B1043 /* SmartWorkSDK */,
-				180DBF261EDD2B0D00AB7201 /* lib3rd */,
+				18FA19C91EE3FF1C009BC19E /* UI */,
 				180DBEF81EDD28CC00AB7201 /* AppDelegate.swift */,
 				180DBEFA1EDD28CC00AB7201 /* ViewController.swift */,
 				180DBEFC1EDD28CC00AB7201 /* Main.storyboard */,
@@ -137,13 +137,6 @@
 			path = SmartWorkUITests;
 			sourceTree = "<group>";
 		};
-		180DBF261EDD2B0D00AB7201 /* lib3rd */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lib3rd;
-			sourceTree = "<group>";
-		};
 		1849CEA91EDD5282009B1043 /* SmartWorkSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +145,13 @@
 			);
 			name = SmartWorkSDK;
 			path = Public;
+			sourceTree = "<group>";
+		};
+		18FA19C91EE3FF1C009BC19E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		2F23759E9417E4FBB4C13F0B /* Frameworks */ = {
