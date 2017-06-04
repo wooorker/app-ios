@@ -7,4 +7,5 @@ target ‘SmartWork’ do
     pod 'Alamofire', '~> 4.4'
     pod 'SwiftyJSON'
     pod 'Kingfisher'
+    pod 'MBProgressHUD'
 end
