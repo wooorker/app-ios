@@ -8,4 +8,5 @@ target ‘SmartWork’ do
     pod 'SwiftyJSON'
     pod 'Kingfisher'
     pod 'MBProgressHUD'
+    pod 'LKDBHelper'
 end

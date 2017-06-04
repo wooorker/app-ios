@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '640F9F79BADF3233B5DB34CFE9F0C009'
-               BlueprintName = 'SwiftyJSON'
+               BlueprintIdentifier = 'CCA9C33B127D6C859A3F8AFBEFCBABF0'
+               BlueprintName = 'LKDBHelper'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SwiftyJSON.framework'>
+               BuildableName = 'LKDBHelper.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

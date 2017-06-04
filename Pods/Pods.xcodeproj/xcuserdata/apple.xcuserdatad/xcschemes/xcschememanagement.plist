@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>LKDBHelper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,7 +42,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>19A5EEE162FDCCD96DC9A9B7B77A668F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>251BAD17812F7EBF6532EACF66F941C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>640F9F79BADF3233B5DB34CFE9F0C009</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,17 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C1195EC0ADEC4944BBE25D98E7B31282</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>C4944FEC314D1A66588651D006273ADE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB8BF16365652C67933F856538858574</key>
+		<key>CCA9C33B127D6C859A3F8AFBEFCBABF0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
