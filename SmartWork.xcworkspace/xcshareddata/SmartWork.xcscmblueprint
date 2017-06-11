@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4F1EC1B12C4207B024B592AD264BFE31DE5AA892",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4F1EC1B12C4207B024B592AD264BFE31DE5AA892" : 9223372036854775807,
+    "FDBD3DB63BD683E7863587A2AB2AE5B48EECD4C9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F6AF32AA-351E-4F7D-932B-7185367653B8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4F1EC1B12C4207B024B592AD264BFE31DE5AA892" : "SmartWork\/",
+    "FDBD3DB63BD683E7863587A2AB2AE5B48EECD4C9" : "..\/blockskit\/BlocksKit"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SmartWork",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SmartWork.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wooorker\/app-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4F1EC1B12C4207B024B592AD264BFE31DE5AA892"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zwaldowski\/BlocksKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FDBD3DB63BD683E7863587A2AB2AE5B48EECD4C9"
+    }
+  ]
+}
