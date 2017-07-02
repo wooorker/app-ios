@@ -9,4 +9,5 @@ target ‘SmartWork’ do
     pod 'Kingfisher'
     pod 'MBProgressHUD'
     pod 'LKDBHelper'
+    pod 'Moya'
 end

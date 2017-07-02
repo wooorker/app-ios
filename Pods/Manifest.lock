@@ -7,6 +7,12 @@ PODS:
   - LKDBHelper (2.4.2):
     - FMDB
   - MBProgressHUD (1.0.0)
+  - Moya (8.0.5):
+    - Moya/Core (= 8.0.5)
+  - Moya/Core (8.0.5):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.3)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
@@ -14,6 +20,7 @@ DEPENDENCIES:
   - Kingfisher
   - LKDBHelper
   - MBProgressHUD
+  - Moya
   - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -22,8 +29,10 @@ SPEC CHECKSUMS:
   Kingfisher: 6729a0baaa458245bfb8cd5a1296c71c10d6eb6c
   LKDBHelper: ab67373b32f47463bf5f838d730f225824f4492a
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: dc305de0fcc25a1e43665a100054f65d331f68b5
+PODFILE CHECKSUM: 02f0dc018c185a4901c0a97931a1fd93666a7e52
 
 COCOAPODS: 1.2.1

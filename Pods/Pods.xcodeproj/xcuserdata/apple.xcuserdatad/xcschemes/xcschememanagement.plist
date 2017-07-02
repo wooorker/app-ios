@@ -29,7 +29,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SmartWork.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Result.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,7 +52,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>19A5EEE162FDCCD96DC9A9B7B77A668F</key>
+		<key>1215771836B84E9F9899950098D2FF80</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,7 +67,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>640F9F79BADF3233B5DB34CFE9F0C009</key>
+		<key>52ACA0236F086E72B74F0A090A743D41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>583E1BD2A0B98C9B9646F6A5F041ECC5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>80CF80FC9A73CD6E5510D5FCC59F2B93</key>
 		<dict>
 			<key>primary</key>
 			<true/>
