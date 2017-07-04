@@ -15,10 +15,14 @@
 		180DBF0E1EDD28CC00AB7201 /* SmartWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBF0D1EDD28CC00AB7201 /* SmartWorkTests.swift */; };
 		180DBF191EDD28CC00AB7201 /* SmartWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBF181EDD28CC00AB7201 /* SmartWorkUITests.swift */; };
 		182005811EED28D20033695E /* SWHttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182005801EED28D20033695E /* SWHttpResponse.swift */; };
-		182005831EED29130033695E /* SWHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182005821EED29130033695E /* SWHttpRequest.swift */; };
 		1849CEAB1EDD529D009B1043 /* SWPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849CEAA1EDD529D009B1043 /* SWPublic.swift */; };
+		184C71E91F08CE3000009C2E /* SWApiPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C71E81F08CE3000009C2E /* SWApiPost.swift */; };
+		184C71EB1F08CE4200009C2E /* SWApiPatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C71EA1F08CE4200009C2E /* SWApiPatch.swift */; };
+		184C71ED1F08CE4E00009C2E /* SWApiPut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C71EC1F08CE4E00009C2E /* SWApiPut.swift */; };
+		184C71EF1F08CE5900009C2E /* SWApiDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C71EE1F08CE5900009C2E /* SWApiDelete.swift */; };
+		184C71F21F08D04900009C2E /* SWSecret.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C71F11F08D04900009C2E /* SWSecret.m */; };
 		1858964D1EECFC220011E0F2 /* SWApiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858964C1EECFC220011E0F2 /* SWApiObject.swift */; };
-		18D4B2F01EECEEE900478216 /* SWApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4B2EF1EECEEE900478216 /* SWApi.swift */; };
+		18D4B2F01EECEEE900478216 /* SWApiGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4B2EF1EECEEE900478216 /* SWApiGet.swift */; };
 		DF9469B085FB49BF1194BC76 /* Pods_SmartWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +58,15 @@
 		180DBF181EDD28CC00AB7201 /* SmartWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWorkUITests.swift; sourceTree = "<group>"; };
 		180DBF1A1EDD28CC00AB7201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182005801EED28D20033695E /* SWHttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWHttpResponse.swift; sourceTree = "<group>"; };
-		182005821EED29130033695E /* SWHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWHttpRequest.swift; sourceTree = "<group>"; };
 		1849CEAA1EDD529D009B1043 /* SWPublic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPublic.swift; sourceTree = "<group>"; };
+		184C71E81F08CE3000009C2E /* SWApiPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiPost.swift; sourceTree = "<group>"; };
+		184C71EA1F08CE4200009C2E /* SWApiPatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiPatch.swift; sourceTree = "<group>"; };
+		184C71EC1F08CE4E00009C2E /* SWApiPut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiPut.swift; sourceTree = "<group>"; };
+		184C71EE1F08CE5900009C2E /* SWApiDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiDelete.swift; sourceTree = "<group>"; };
+		184C71F01F08D04900009C2E /* SWSecret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSecret.h; sourceTree = "<group>"; };
+		184C71F11F08D04900009C2E /* SWSecret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSecret.m; sourceTree = "<group>"; };
 		1858964C1EECFC220011E0F2 /* SWApiObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiObject.swift; sourceTree = "<group>"; };
-		18D4B2EF1EECEEE900478216 /* SWApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApi.swift; sourceTree = "<group>"; };
+		18D4B2EF1EECEEE900478216 /* SWApiGet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiGet.swift; sourceTree = "<group>"; };
 		18FA19B31EE3D857009BC19E /* SmartWork-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SmartWork-Bridging-Header.h"; path = "Public/SmartWork-Bridging-Header.h"; sourceTree = "<group>"; };
 		35B14B1DAA736DA0993D4D05 /* Pods-SmartWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartWork/Pods-SmartWork.release.xcconfig"; sourceTree = "<group>"; };
 		5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,9 +168,14 @@
 		18D4B2EE1EECEECA00478216 /* SWApi */ = {
 			isa = PBXGroup;
 			children = (
-				18D4B2EF1EECEEE900478216 /* SWApi.swift */,
-				182005821EED29130033695E /* SWHttpRequest.swift */,
+				18D4B2EF1EECEEE900478216 /* SWApiGet.swift */,
+				184C71E81F08CE3000009C2E /* SWApiPost.swift */,
+				184C71EA1F08CE4200009C2E /* SWApiPatch.swift */,
+				184C71EC1F08CE4E00009C2E /* SWApiPut.swift */,
+				184C71EE1F08CE5900009C2E /* SWApiDelete.swift */,
 				182005801EED28D20033695E /* SWHttpResponse.swift */,
+				184C71F01F08D04900009C2E /* SWSecret.h */,
+				184C71F11F08D04900009C2E /* SWSecret.m */,
 				1858964C1EECFC220011E0F2 /* SWApiObject.swift */,
 			);
 			path = SWApi;
@@ -377,13 +391,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182005831EED29130033695E /* SWHttpRequest.swift in Sources */,
 				182005811EED28D20033695E /* SWHttpResponse.swift in Sources */,
 				1849CEAB1EDD529D009B1043 /* SWPublic.swift in Sources */,
 				180DBEFB1EDD28CC00AB7201 /* ViewController.swift in Sources */,
+				184C71F21F08D04900009C2E /* SWSecret.m in Sources */,
+				184C71ED1F08CE4E00009C2E /* SWApiPut.swift in Sources */,
 				1858964D1EECFC220011E0F2 /* SWApiObject.swift in Sources */,
-				18D4B2F01EECEEE900478216 /* SWApi.swift in Sources */,
+				184C71E91F08CE3000009C2E /* SWApiPost.swift in Sources */,
+				18D4B2F01EECEEE900478216 /* SWApiGet.swift in Sources */,
+				184C71EF1F08CE5900009C2E /* SWApiDelete.swift in Sources */,
 				180DBEF91EDD28CC00AB7201 /* AppDelegate.swift in Sources */,
+				184C71EB1F08CE4200009C2E /* SWApiPatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
