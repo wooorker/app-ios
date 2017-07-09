@@ -57,7 +57,7 @@ extension SWApiGet: TargetType {
         }
     }
     public var parameterEncoding: ParameterEncoding {
-        return URLEncoding.default
+        return JSONEncoding.default
     }
     public var task: Task {
         return .request
@@ -85,7 +85,6 @@ extension Moya.Response {
         return array
     }
 }
-
 
 
 

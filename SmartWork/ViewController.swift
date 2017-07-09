@@ -17,9 +17,10 @@ class ViewController: UIViewController {
         SWApiGetProvider.request(.test) { result in
             if case let .success(response) = result {
 
+                
                 let jsonString = try? response.mapJSON() as!NSDictionary
 
-                print(jsonString)
+                print(jsonString ?? "ca")
             }
             
         }
