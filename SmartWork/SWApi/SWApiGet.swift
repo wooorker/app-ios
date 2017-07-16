@@ -55,7 +55,7 @@ extension SWApiGet: TargetType {
         switch self {
         case .userInfo:
             parametersDict = ["s_token" : SWUD.object(forkey: SW_TOKEN) as!String]
-            return parametersDict?.getSignDict();
+            return parametersDict?.getNoSignDict();
         }
     }
     public var parameterEncoding: ParameterEncoding {

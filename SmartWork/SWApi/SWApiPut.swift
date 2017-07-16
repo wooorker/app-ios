@@ -58,7 +58,7 @@ extension SWApiPut: TargetType {
             }
             parametersDict = NSDictionary(dictionary: mutableParametersDict)
         }
-        return parametersDict?.getNoSignDict()
+        return parametersDict?.getSignDict()
     }
     public var parameterEncoding: ParameterEncoding {
         return JSONEncoding.default

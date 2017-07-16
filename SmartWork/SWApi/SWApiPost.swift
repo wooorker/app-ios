@@ -45,7 +45,7 @@ extension SWApiPost: TargetType {
         case .userAccountLogin(let email, let password):
             parametersDict = ["email" : email, "password" : password]
         }
-        return parametersDict?.getNoSignDict()
+        return parametersDict?.getSignDict()
     }
     public var parameterEncoding: ParameterEncoding {
         return JSONEncoding.default
