@@ -9,6 +9,8 @@
 import Foundation
 import Moya
 
+let baseUrlString = "http://test.api.smartdo.io";
+
 // MARK: - Provider setup
 func JSONResponseDataFormatter(_ data: Data) -> Data {
     do {
@@ -31,12 +33,12 @@ extension String {
 }
 
 public enum SWApiGet {
-    case userInfo(s_token: String)
+    case userInfo
 }
 
 extension SWApiGet: TargetType {
     public var baseURL: URL {
-        return URL(string: "http://test.api.smartdo.io")!
+        return URL(string: baseUrlString)!
     }
     public var path: String {
         switch self {
@@ -51,8 +53,8 @@ extension SWApiGet: TargetType {
         var parametersDict : NSDictionary?
         
         switch self {
-        case .userInfo(let s_token):
-            parametersDict = ["s_token" : s_token]
+        case .userInfo:
+            parametersDict = ["s_token" : SWUD.object(forkey: SW_TOKEN) as!String]
             return parametersDict?.getSignDict();
         }
     }
