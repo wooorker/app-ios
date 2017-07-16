@@ -10,8 +10,7 @@ import Foundation
 import Moya
 
 // MARK: - Provider setup
-
-private func JSONResponseDataFormatter(_ data: Data) -> Data {
+func JSONResponseDataFormatter(_ data: Data) -> Data {
     do {
         let dataAsJSON = try JSONSerialization.jsonObject(with: data)
         let prettyData =  try JSONSerialization.data(withJSONObject: dataAsJSON, options: .prettyPrinted)
@@ -25,35 +24,36 @@ let SWApiGetProvider = MoyaProvider<SWApiGet>(plugins: [NetworkLoggerPlugin(verb
 
 // MARK: - Provider support
 
-private extension String {
+extension String {
     var urlEscaped: String {
         return self.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
     }
 }
 
 public enum SWApiGet {
-    case test
+    case userInfo(s_token: String)
 }
 
 extension SWApiGet: TargetType {
-    public var baseURL: URL { return URL(string: "http://api.tigerb.cn/v1")! }
+    public var baseURL: URL {
+        return URL(string: "http://test.api.smartdo.io")!
+    }
     public var path: String {
         switch self {
-        case .test:
+        case .userInfo:
             return "/user"
         }
     }
     public var method: Moya.Method {
-        return .post
+        return .get
     }
     public var parameters: [String: Any]? {
         var parametersDict : NSDictionary?
         
         switch self {
-        case .test:
-            parametersDict = ["email" : "tigerbcode@gmail.com", "password" : "123456"]
+        case .userInfo(let s_token):
+            parametersDict = ["s_token" : s_token]
             return parametersDict?.getSignDict();
-        
         }
     }
     public var parameterEncoding: ParameterEncoding {
@@ -85,6 +85,4 @@ extension Moya.Response {
         return array
     }
 }
-
-
 

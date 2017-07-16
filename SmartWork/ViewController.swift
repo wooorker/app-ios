@@ -14,16 +14,9 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         self.navigationController?.navigationBar.isHidden = true
-        SWApiGetProvider.request(.test) { result in
-            if case let .success(response) = result {
-
-                
-                let jsonString = try? response.mapJSON() as!NSDictionary
-
-                print(jsonString ?? "ca")
-            }
-            
-        }
+        
+        
+        
 
         // Do any additional setup after loading the view, typically from a nib.
     }

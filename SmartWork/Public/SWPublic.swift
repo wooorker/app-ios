@@ -51,5 +51,18 @@ extension NSDictionary {
         let dict = NSDictionary(dictionary: mutDict)
         return dict as? [String : Any]
     }
+    
+    func getNoSignDict() -> [String: Any]? {
+        let mutDict = NSMutableDictionary.init(dictionary: self)
+        let timestampString = String(Int(NSDate().timeIntervalSince1970) * 1000)
+        mutDict.setValue(app_key, forKey: "app_key")
+        mutDict.setValue(timestampString, forKey: "timestamp")
+        mutDict.setValue("ddf", forKey: "did")
+        let dict = NSDictionary(dictionary: mutDict)
+        return dict as? [String : Any]
+    }
 }
+
+
+
 
