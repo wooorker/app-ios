@@ -27,9 +27,9 @@ extension SWApiPost: TargetType {
     public var path: String {
         switch self {
         case .userSocialLogin:
-            return "/user/social"
+            return "/v1/user/social"
         case .userAccountLogin:
-            return "/user"
+            return "/v1/user"
         }
         
     }

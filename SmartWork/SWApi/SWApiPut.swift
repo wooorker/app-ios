@@ -27,7 +27,7 @@ extension SWApiPut: TargetType {
     public var path: String {
         switch self {
         case .updateUser:
-            return "/user"
+            return "/v1/user"
         }
         
     }

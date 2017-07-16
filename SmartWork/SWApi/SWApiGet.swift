@@ -43,7 +43,7 @@ extension SWApiGet: TargetType {
     public var path: String {
         switch self {
         case .userInfo:
-            return "/user"
+            return "/v1/user"
         }
     }
     public var method: Moya.Method {
