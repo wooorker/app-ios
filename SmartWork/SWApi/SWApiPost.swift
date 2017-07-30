@@ -16,7 +16,7 @@ let SWApiPostProvider = MoyaProvider<SWApiPost>(plugins: [NetworkLoggerPlugin(ve
 // MARK: - Provider support
 
 public enum SWApiPost {
-    case userSocialLogin(social_type: String)
+    case userSocialLogin(social_id: String, social_type: String)
     case userAccountLogin(email: String, password: String)
 }
 
@@ -40,8 +40,8 @@ extension SWApiPost: TargetType {
         var parametersDict : NSDictionary?
         
         switch self {
-        case .userSocialLogin(let social_type):
-            parametersDict = ["social_id" : SWUD.object(forkey: SW_TOKEN) as! String, "social_type" : social_type]
+        case .userSocialLogin(let social_id, let social_type):
+            parametersDict = ["social_id" : social_id, "social_type" : social_type]
         case .userAccountLogin(let email, let password):
             parametersDict = ["email" : email, "password" : password]
         }
