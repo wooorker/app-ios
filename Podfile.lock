@@ -1,11 +1,13 @@
 PODS:
-  - Alamofire (4.4.0)
-  - FMDB (2.6.2):
-    - FMDB/standard (= 2.6.2)
-  - FMDB/standard (2.6.2)
+  - Alamofire (4.5.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
   - HandyJSON (1.7.2)
-  - Kingfisher (3.9.1)
-  - LKDBHelper (2.4.2):
+  - Kingfisher (3.10.4)
+  - LKDBHelper (2.4.4):
+    - LKDBHelper/standard (= 2.4.4)
+  - LKDBHelper/standard (2.4.4):
     - FMDB
   - MBProgressHUD (1.0.0)
   - Moya (8.0.5):
@@ -15,7 +17,7 @@ PODS:
     - Result (~> 3.0)
   - Result (3.2.3)
   - SwiftyJSON (3.1.4)
-  - WechatOpenSDK (1.7.8)
+  - WechatOpenSDK (1.7.9)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
@@ -28,16 +30,16 @@ DEPENDENCIES:
   - WechatOpenSDK
 
 SPEC CHECKSUMS:
-  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   HandyJSON: e7ad0483005826baba1d1c251cd98d0aa8bd8cce
-  Kingfisher: 6729a0baaa458245bfb8cd5a1296c71c10d6eb6c
-  LKDBHelper: ab67373b32f47463bf5f838d730f225824f4492a
+  Kingfisher: dc3a4983e86d2dfa89513664983a82340c11a289
+  LKDBHelper: cf467ff69aaf1e13bd4964aca3a79881d54c6d14
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
   Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
-  WechatOpenSDK: ad1e7be1b66416df847ac50830c798b70c9e365e
+  WechatOpenSDK: 1fe7e3b07db860d6a936c3ff4a5aba6b890958d9
 
 PODFILE CHECKSUM: b17b86f33f215dbce58ffeb652ac4440b9b61ef1
 

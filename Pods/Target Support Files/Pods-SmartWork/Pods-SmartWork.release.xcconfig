@@ -3,7 +3,7 @@ FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Alamofire" 
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/WechatOpenSDK"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/WechatOpenSDK/OpenSDK1.7.8"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/WechatOpenSDK/OpenSDK1.7.9"
 OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Alamofire/Alamofire.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/FMDB/FMDB.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/HandyJSON/HandyJSON.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Kingfisher/Kingfisher.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/LKDBHelper/LKDBHelper.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD/MBProgressHUD.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Moya/Moya.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Result/Result.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON/SwiftyJSON.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/WechatOpenSDK"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"WeChatSDK" -l"c++" -l"sqlite3.0" -l"z" -framework "Alamofire" -framework "CFNetwork" -framework "CoreTelephony" -framework "FMDB" -framework "HandyJSON" -framework "Kingfisher" -framework "LKDBHelper" -framework "MBProgressHUD" -framework "Moya" -framework "Result" -framework "Security" -framework "SwiftyJSON" -framework "SystemConfiguration" -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"

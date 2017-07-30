@@ -95,6 +95,7 @@ extension Kingfisher where Base: ImageView {
             },
             completionHandler: {[weak base] image, error, cacheType, imageURL in
                 DispatchQueue.main.safeAsync {
+                    maybeIndicator?.stopAnimatingView()
                     guard let strongBase = base, imageURL == self.webURL else {
                         completionHandler?(image, error, cacheType, imageURL)
                         return
@@ -102,7 +103,6 @@ extension Kingfisher where Base: ImageView {
                     
                     self.setImageTask(nil)
                     guard let image = image else {
-                        maybeIndicator?.stopAnimatingView()
                         completionHandler?(nil, error, cacheType, imageURL)
                         return
                     }
@@ -110,7 +110,6 @@ extension Kingfisher where Base: ImageView {
                     guard let transitionItem = options.lastMatchIgnoringAssociatedValue(.transition(.none)),
                         case .transition(let transition) = transitionItem, ( options.forceTransition || cacheType == .none) else
                     {
-                        maybeIndicator?.stopAnimatingView()
                         strongBase.image = image
                         completionHandler?(image, error, cacheType, imageURL)
                         return
@@ -205,7 +204,10 @@ extension Kingfisher where Base: ImageView {
             
             // Add new
             if var newIndicator = newValue {
-                newIndicator.view.frame = base.frame
+                // Set default indicator frame if the view's frame not set.
+                if newIndicator.view.frame != .zero {
+                    newIndicator.view.frame = base.frame
+                }
                 newIndicator.viewCenter = CGPoint(x: base.bounds.midX, y: base.bounds.midY)
                 newIndicator.view.isHidden = true
                 base.addSubview(newIndicator.view)
