@@ -10,4 +10,6 @@ target ‘SmartWork’ do
     pod 'MBProgressHUD'
     pod 'LKDBHelper'
     pod 'Moya'
+    pod 'WechatOpenSDK'
+    pod 'HandyJSON'
 end
