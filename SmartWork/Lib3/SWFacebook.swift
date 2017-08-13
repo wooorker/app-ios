@@ -21,6 +21,10 @@ class SWFacebook: NSObject {
         FBSDKApplicationDelegate .sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
     }
     
+    func logout() -> Void {
+        FBSDKLoginManager().logOut()
+    }
+    
     func ssoSAuthorizationFinishBlock(finishBlock: @escaping SWQQSSOAuthBlock) -> Void {
         if (FBSDKAccessToken.current() == nil) {
             let login = FBSDKLoginManager()
