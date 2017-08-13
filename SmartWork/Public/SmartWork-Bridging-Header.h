@@ -7,7 +7,8 @@
 #import "WXApi.h"
 #import "WXApiObject.h"
 #import <TencentOpenAPI/TencentOAuth.h>
-
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "LKDBHelper.h"
 @import SwiftyJSON;
 @import Kingfisher;
-@import LKDBHelper;

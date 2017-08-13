@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         SWWeixin.shareSingleTon
         SWQQ.shareSingleTon
+        SWFacebook.shareSingleTon.application(application, didFinishLaunchingWithOptions: launchOptions)
         // Override point for customization after application launch.
         return true
     }
@@ -26,6 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if WXApi.handleOpen(url, delegate: SWWeixin.shareSingleTon) {
             return true
         } else if TencentOAuth.handleOpen(url) {
+            return true
+        } else if FBSDKApplicationDelegate.sharedInstance().application(application, open: url, sourceApplication: sourceApplication, annotation: annotation) {
             return true
         }
         
