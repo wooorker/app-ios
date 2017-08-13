@@ -15,6 +15,7 @@
 		180DBF0E1EDD28CC00AB7201 /* SmartWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBF0D1EDD28CC00AB7201 /* SmartWorkTests.swift */; };
 		180DBF191EDD28CC00AB7201 /* SmartWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180DBF181EDD28CC00AB7201 /* SmartWorkUITests.swift */; };
 		182005811EED28D20033695E /* SWHttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182005801EED28D20033695E /* SWHttpResponse.swift */; };
+		182DDB8C1F3B3295004B34BD /* SWWeixin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DDB8B1F3B3295004B34BD /* SWWeixin.swift */; };
 		1849CEAB1EDD529D009B1043 /* SWPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849CEAA1EDD529D009B1043 /* SWPublic.swift */; };
 		184C71E91F08CE3000009C2E /* SWApiPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C71E81F08CE3000009C2E /* SWApiPost.swift */; };
 		184C71EB1F08CE4200009C2E /* SWApiPatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C71EA1F08CE4200009C2E /* SWApiPatch.swift */; };
@@ -23,6 +24,17 @@
 		184C71F21F08D04900009C2E /* SWSecret.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C71F11F08D04900009C2E /* SWSecret.m */; };
 		1858964D1EECFC220011E0F2 /* SWApiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858964C1EECFC220011E0F2 /* SWApiObject.swift */; };
 		18D4B2F01EECEEE900478216 /* SWApiGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4B2EF1EECEEE900478216 /* SWApiGet.swift */; };
+		18DD11351F3FDDB800D198BB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD11341F3FDDB800D198BB /* Security.framework */; };
+		18DD11371F3FDDD500D198BB /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD11361F3FDDD500D198BB /* libiconv.tbd */; };
+		18DD11391F3FDDDE00D198BB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD11381F3FDDDE00D198BB /* SystemConfiguration.framework */; };
+		18DD113B1F3FDDE800D198BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD113A1F3FDDE800D198BB /* CoreGraphics.framework */; };
+		18DD113D1F3FDDF400D198BB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD113C1F3FDDF400D198BB /* libsqlite3.tbd */; };
+		18DD113F1F3FDDFB00D198BB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD113E1F3FDDFB00D198BB /* CoreTelephony.framework */; };
+		18DD11411F3FDE0500D198BB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD11401F3FDE0500D198BB /* libstdc++.tbd */; };
+		18DD11431F3FDE0F00D198BB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD11421F3FDE0F00D198BB /* libz.tbd */; };
+		18DD11461F3FE08D00D198BB /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18DD11441F3FE08D00D198BB /* TencentOpenApi_IOS_Bundle.bundle */; };
+		18DD11471F3FE08D00D198BB /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD11451F3FE08D00D198BB /* TencentOpenAPI.framework */; };
+		18DD11491F3FE0F500D198BB /* SWQQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD11481F3FE0F500D198BB /* SWQQ.swift */; };
 		DF9469B085FB49BF1194BC76 /* Pods_SmartWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +70,7 @@
 		180DBF181EDD28CC00AB7201 /* SmartWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWorkUITests.swift; sourceTree = "<group>"; };
 		180DBF1A1EDD28CC00AB7201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182005801EED28D20033695E /* SWHttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWHttpResponse.swift; sourceTree = "<group>"; };
+		182DDB8B1F3B3295004B34BD /* SWWeixin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWWeixin.swift; sourceTree = "<group>"; };
 		1849CEAA1EDD529D009B1043 /* SWPublic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPublic.swift; sourceTree = "<group>"; };
 		184C71E81F08CE3000009C2E /* SWApiPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiPost.swift; sourceTree = "<group>"; };
 		184C71EA1F08CE4200009C2E /* SWApiPatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiPatch.swift; sourceTree = "<group>"; };
@@ -67,6 +80,17 @@
 		184C71F11F08D04900009C2E /* SWSecret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSecret.m; sourceTree = "<group>"; };
 		1858964C1EECFC220011E0F2 /* SWApiObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiObject.swift; sourceTree = "<group>"; };
 		18D4B2EF1EECEEE900478216 /* SWApiGet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiGet.swift; sourceTree = "<group>"; };
+		18DD11341F3FDDB800D198BB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18DD11361F3FDDD500D198BB /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		18DD11381F3FDDDE00D198BB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18DD113A1F3FDDE800D198BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18DD113C1F3FDDF400D198BB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18DD113E1F3FDDFB00D198BB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		18DD11401F3FDE0500D198BB /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		18DD11421F3FDE0F00D198BB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18DD11441F3FE08D00D198BB /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		18DD11451F3FE08D00D198BB /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		18DD11481F3FE0F500D198BB /* SWQQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWQQ.swift; sourceTree = "<group>"; };
 		18FA19B31EE3D857009BC19E /* SmartWork-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SmartWork-Bridging-Header.h"; path = "Public/SmartWork-Bridging-Header.h"; sourceTree = "<group>"; };
 		35B14B1DAA736DA0993D4D05 /* Pods-SmartWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartWork/Pods-SmartWork.release.xcconfig"; sourceTree = "<group>"; };
 		5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +102,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DD11431F3FDE0F00D198BB /* libz.tbd in Frameworks */,
+				18DD11411F3FDE0500D198BB /* libstdc++.tbd in Frameworks */,
+				18DD113F1F3FDDFB00D198BB /* CoreTelephony.framework in Frameworks */,
+				18DD113D1F3FDDF400D198BB /* libsqlite3.tbd in Frameworks */,
+				18DD113B1F3FDDE800D198BB /* CoreGraphics.framework in Frameworks */,
+				18DD11471F3FE08D00D198BB /* TencentOpenAPI.framework in Frameworks */,
+				18DD11391F3FDDDE00D198BB /* SystemConfiguration.framework in Frameworks */,
+				18DD11371F3FDDD500D198BB /* libiconv.tbd in Frameworks */,
+				18DD11351F3FDDB800D198BB /* Security.framework in Frameworks */,
 				DF9469B085FB49BF1194BC76 /* Pods_SmartWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +157,7 @@
 		180DBEF71EDD28CC00AB7201 /* SmartWork */ = {
 			isa = PBXGroup;
 			children = (
+				182DDB8A1F3B2FE9004B34BD /* Lib3 */,
 				18D4B2EE1EECEECA00478216 /* SWApi */,
 				1849CEA91EDD5282009B1043 /* SmartWorkSDK */,
 				18FA19C91EE3FF1C009BC19E /* UI */,
@@ -154,6 +188,17 @@
 				180DBF1A1EDD28CC00AB7201 /* Info.plist */,
 			);
 			path = SmartWorkUITests;
+			sourceTree = "<group>";
+		};
+		182DDB8A1F3B2FE9004B34BD /* Lib3 */ = {
+			isa = PBXGroup;
+			children = (
+				18DD11441F3FE08D00D198BB /* TencentOpenApi_IOS_Bundle.bundle */,
+				18DD11451F3FE08D00D198BB /* TencentOpenAPI.framework */,
+				182DDB8B1F3B3295004B34BD /* SWWeixin.swift */,
+				18DD11481F3FE0F500D198BB /* SWQQ.swift */,
+			);
+			path = Lib3;
 			sourceTree = "<group>";
 		};
 		1849CEA91EDD5282009B1043 /* SmartWorkSDK */ = {
@@ -191,6 +236,14 @@
 		2F23759E9417E4FBB4C13F0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18DD11421F3FDE0F00D198BB /* libz.tbd */,
+				18DD11401F3FDE0500D198BB /* libstdc++.tbd */,
+				18DD113E1F3FDDFB00D198BB /* CoreTelephony.framework */,
+				18DD113C1F3FDDF400D198BB /* libsqlite3.tbd */,
+				18DD113A1F3FDDE800D198BB /* CoreGraphics.framework */,
+				18DD11381F3FDDDE00D198BB /* SystemConfiguration.framework */,
+				18DD11361F3FDDD500D198BB /* libiconv.tbd */,
+				18DD11341F3FDDB800D198BB /* Security.framework */,
 				5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */,
 			);
 			name = Frameworks;
@@ -316,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DD11461F3FE08D00D198BB /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				180DBF031EDD28CC00AB7201 /* LaunchScreen.storyboard in Resources */,
 				180DBF001EDD28CC00AB7201 /* Assets.xcassets in Resources */,
 				180DBEFE1EDD28CC00AB7201 /* Main.storyboard in Resources */,
@@ -395,9 +449,11 @@
 				1849CEAB1EDD529D009B1043 /* SWPublic.swift in Sources */,
 				180DBEFB1EDD28CC00AB7201 /* ViewController.swift in Sources */,
 				184C71F21F08D04900009C2E /* SWSecret.m in Sources */,
+				18DD11491F3FE0F500D198BB /* SWQQ.swift in Sources */,
 				184C71ED1F08CE4E00009C2E /* SWApiPut.swift in Sources */,
 				1858964D1EECFC220011E0F2 /* SWApiObject.swift in Sources */,
 				184C71E91F08CE3000009C2E /* SWApiPost.swift in Sources */,
+				182DDB8C1F3B3295004B34BD /* SWWeixin.swift in Sources */,
 				18D4B2F01EECEEE900478216 /* SWApiGet.swift in Sources */,
 				184C71EF1F08CE5900009C2E /* SWApiDelete.swift in Sources */,
 				180DBEF91EDD28CC00AB7201 /* AppDelegate.swift in Sources */,
@@ -561,10 +617,48 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/Kingfisher\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"$(PROJECT_DIR)/SmartWork/Lib3",
 				);
 				INFOPLIST_FILE = SmartWork/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"HandyJSON\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"LKDBHelper\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Moya\"",
+					"-framework",
+					"\"Result\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SmartWork/Public/SmartWork-Bridging-Header.h";
@@ -586,10 +680,48 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/Kingfisher\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"$(PROJECT_DIR)/SmartWork/Lib3",
 				);
 				INFOPLIST_FILE = SmartWork/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"HandyJSON\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"LKDBHelper\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Moya\"",
+					"-framework",
+					"\"Result\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Batman.SmartDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SmartWork/Public/SmartWork-Bridging-Header.h";

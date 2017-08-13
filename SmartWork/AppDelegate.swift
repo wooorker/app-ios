@@ -15,8 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        SWWeixin.shareSingleTon
+        SWQQ.shareSingleTon
         // Override point for customization after application launch.
         return true
+    }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        
+        if WXApi.handleOpen(url, delegate: SWWeixin.shareSingleTon) {
+            return true
+        } else if TencentOAuth.handleOpen(url) {
+            return true
+        }
+        
+        return false
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
