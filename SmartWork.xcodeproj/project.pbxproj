@@ -40,6 +40,7 @@
 		18DD114F1F40149800D198BB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD114E1F40149800D198BB /* FBSDKLoginKit.framework */; };
 		18DD11511F4014A400D198BB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD11501F4014A400D198BB /* FBSDKShareKit.framework */; };
 		18DD11531F402B3100D198BB /* SWFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD11521F402B3100D198BB /* SWFacebook.swift */; };
+		18DD11551F403D4E00D198BB /* SWGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD11541F403D4E00D198BB /* SWGoogle.swift */; };
 		DF9469B085FB49BF1194BC76 /* Pods_SmartWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,7 @@
 		18DD114E1F40149800D198BB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		18DD11501F4014A400D198BB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		18DD11521F402B3100D198BB /* SWFacebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWFacebook.swift; sourceTree = "<group>"; };
+		18DD11541F403D4E00D198BB /* SWGoogle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWGoogle.swift; sourceTree = "<group>"; };
 		18FA19B31EE3D857009BC19E /* SmartWork-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SmartWork-Bridging-Header.h"; path = "Public/SmartWork-Bridging-Header.h"; sourceTree = "<group>"; };
 		35B14B1DAA736DA0993D4D05 /* Pods-SmartWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartWork/Pods-SmartWork.release.xcconfig"; sourceTree = "<group>"; };
 		5E48A34DA2CB9460D5661CC3 /* Pods_SmartWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +218,7 @@
 				182DDB8B1F3B3295004B34BD /* SWWeixin.swift */,
 				18DD11481F3FE0F500D198BB /* SWQQ.swift */,
 				18DD11521F402B3100D198BB /* SWFacebook.swift */,
+				18DD11541F403D4E00D198BB /* SWGoogle.swift */,
 			);
 			path = Lib3;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				182005811EED28D20033695E /* SWHttpResponse.swift in Sources */,
 				1849CEAB1EDD529D009B1043 /* SWPublic.swift in Sources */,
 				180DBEFB1EDD28CC00AB7201 /* ViewController.swift in Sources */,
+				18DD11551F403D4E00D198BB /* SWGoogle.swift in Sources */,
 				184C71F21F08D04900009C2E /* SWSecret.m in Sources */,
 				18DD11491F3FE0F500D198BB /* SWQQ.swift in Sources */,
 				184C71ED1F08CE4E00009C2E /* SWApiPut.swift in Sources */,
