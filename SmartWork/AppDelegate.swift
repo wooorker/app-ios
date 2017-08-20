@@ -30,6 +30,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return true
         } else if FBSDKApplicationDelegate.sharedInstance().application(application, open: url, sourceApplication: sourceApplication, annotation: annotation) {
             return true
+        } else if GIDSignIn.sharedInstance().handle(url,
+                                                    sourceApplication: sourceApplication,
+                                                    annotation: annotation) {
+            return true
+        }
+        
+        return false
+    }
+    
+    @available(iOS 9.0, *)
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any]) -> Bool {
+        if WXApi.handleOpen(url, delegate: SWWeixin.shareSingleTon) {
+            return true
+        } else if TencentOAuth.handleOpen(url) {
+            return true
+        } else if FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String, annotation: [UIApplicationOpenURLOptionsKey.annotation]) {
+            return true
+        } else if GIDSignIn.sharedInstance().handle(url,
+                                                    sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
+                                                    annotation: options[UIApplicationOpenURLOptionsKey.annotation]) {
+            return true
         }
         
         return false

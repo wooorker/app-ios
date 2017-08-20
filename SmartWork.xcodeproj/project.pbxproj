@@ -23,6 +23,13 @@
 		184C71EF1F08CE5900009C2E /* SWApiDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C71EE1F08CE5900009C2E /* SWApiDelete.swift */; };
 		184C71F21F08D04900009C2E /* SWSecret.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C71F11F08D04900009C2E /* SWSecret.m */; };
 		1858964D1EECFC220011E0F2 /* SWApiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858964C1EECFC220011E0F2 /* SWApiObject.swift */; };
+		18BDC1231F49362500C694A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18BDC1221F49362500C694A7 /* GoogleService-Info.plist */; };
+		18BDC1291F49368700C694A7 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BDC1241F49368700C694A7 /* GoogleAppUtilities.framework */; };
+		18BDC12A1F49368700C694A7 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18BDC1251F49368700C694A7 /* GoogleSignIn.bundle */; };
+		18BDC12B1F49368700C694A7 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BDC1261F49368700C694A7 /* GoogleSignIn.framework */; };
+		18BDC12C1F49368700C694A7 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BDC1271F49368700C694A7 /* GoogleSignInDependencies.framework */; };
+		18BDC12D1F49368700C694A7 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BDC1281F49368700C694A7 /* GoogleSymbolUtilities.framework */; };
+		18BDC12F1F49397E00C694A7 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BDC12E1F49397E00C694A7 /* SafariServices.framework */; };
 		18D4B2F01EECEEE900478216 /* SWApiGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4B2EF1EECEEE900478216 /* SWApiGet.swift */; };
 		18DD11351F3FDDB800D198BB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD11341F3FDDB800D198BB /* Security.framework */; };
 		18DD11371F3FDDD500D198BB /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD11361F3FDDD500D198BB /* libiconv.tbd */; };
@@ -85,6 +92,13 @@
 		184C71F01F08D04900009C2E /* SWSecret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSecret.h; sourceTree = "<group>"; };
 		184C71F11F08D04900009C2E /* SWSecret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSecret.m; sourceTree = "<group>"; };
 		1858964C1EECFC220011E0F2 /* SWApiObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiObject.swift; sourceTree = "<group>"; };
+		18BDC1221F49362500C694A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18BDC1241F49368700C694A7 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		18BDC1251F49368700C694A7 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		18BDC1261F49368700C694A7 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		18BDC1271F49368700C694A7 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		18BDC1281F49368700C694A7 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		18BDC12E1F49397E00C694A7 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		18D4B2EF1EECEEE900478216 /* SWApiGet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiGet.swift; sourceTree = "<group>"; };
 		18DD11341F3FDDB800D198BB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		18DD11361F3FDDD500D198BB /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
@@ -114,12 +128,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BDC12F1F49397E00C694A7 /* SafariServices.framework in Frameworks */,
+				18BDC12D1F49368700C694A7 /* GoogleSymbolUtilities.framework in Frameworks */,
 				18DD11431F3FDE0F00D198BB /* libz.tbd in Frameworks */,
 				18DD114D1F40147D00D198BB /* FBSDKCoreKit.framework in Frameworks */,
 				18DD11411F3FDE0500D198BB /* libstdc++.tbd in Frameworks */,
 				18DD113F1F3FDDFB00D198BB /* CoreTelephony.framework in Frameworks */,
 				18DD113D1F3FDDF400D198BB /* libsqlite3.tbd in Frameworks */,
+				18BDC12C1F49368700C694A7 /* GoogleSignInDependencies.framework in Frameworks */,
 				18DD113B1F3FDDE800D198BB /* CoreGraphics.framework in Frameworks */,
+				18BDC1291F49368700C694A7 /* GoogleAppUtilities.framework in Frameworks */,
+				18BDC12B1F49368700C694A7 /* GoogleSignIn.framework in Frameworks */,
 				18DD11471F3FE08D00D198BB /* TencentOpenAPI.framework in Frameworks */,
 				18DD114F1F40149800D198BB /* FBSDKLoginKit.framework in Frameworks */,
 				18DD11391F3FDDDE00D198BB /* SystemConfiguration.framework in Frameworks */,
@@ -183,6 +202,7 @@
 				180DBEFC1EDD28CC00AB7201 /* Main.storyboard */,
 				180DBEFF1EDD28CC00AB7201 /* Assets.xcassets */,
 				180DBF011EDD28CC00AB7201 /* LaunchScreen.storyboard */,
+				18BDC1221F49362500C694A7 /* GoogleService-Info.plist */,
 				180DBF041EDD28CC00AB7201 /* Info.plist */,
 			);
 			path = SmartWork;
@@ -209,6 +229,11 @@
 		182DDB8A1F3B2FE9004B34BD /* Lib3 */ = {
 			isa = PBXGroup;
 			children = (
+				18BDC1241F49368700C694A7 /* GoogleAppUtilities.framework */,
+				18BDC1251F49368700C694A7 /* GoogleSignIn.bundle */,
+				18BDC1261F49368700C694A7 /* GoogleSignIn.framework */,
+				18BDC1271F49368700C694A7 /* GoogleSignInDependencies.framework */,
+				18BDC1281F49368700C694A7 /* GoogleSymbolUtilities.framework */,
 				18DD11501F4014A400D198BB /* FBSDKShareKit.framework */,
 				18DD114E1F40149800D198BB /* FBSDKLoginKit.framework */,
 				18DD114C1F40147D00D198BB /* FBSDKCoreKit.framework */,
@@ -258,6 +283,7 @@
 		2F23759E9417E4FBB4C13F0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18BDC12E1F49397E00C694A7 /* SafariServices.framework */,
 				18DD11421F3FDE0F00D198BB /* libz.tbd */,
 				18DD11401F3FDE0500D198BB /* libstdc++.tbd */,
 				18DD113E1F3FDDFB00D198BB /* CoreTelephony.framework */,
@@ -394,7 +420,9 @@
 			files = (
 				18DD11461F3FE08D00D198BB /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				180DBF031EDD28CC00AB7201 /* LaunchScreen.storyboard in Resources */,
+				18BDC1231F49362500C694A7 /* GoogleService-Info.plist in Resources */,
 				180DBF001EDD28CC00AB7201 /* Assets.xcassets in Resources */,
+				18BDC12A1F49368700C694A7 /* GoogleSignIn.bundle in Resources */,
 				180DBEFE1EDD28CC00AB7201 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
